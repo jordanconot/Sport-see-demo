@@ -25,7 +25,7 @@ const Summary = () => {
   return (
     <aside className="container_summary">
       <div className="summary_bloc calories">
-        <img src="/src/assets/svg/calories.svg"></img>
+        <img src="/assets/svg/calories.svg"></img>
         <div className="summary_bloc_details">
           <p className="summary_number">
             {nutrientsData.keyData.calorieCount}kCal
@@ -34,7 +34,7 @@ const Summary = () => {
         </div>
       </div>
       <div className="summary_bloc protein">
-        <img src="/src/assets/svg/protein.svg"></img>
+        <img src="/assets/svg/protein.svg"></img>
         <div className="summary_bloc_details">
           <p className="summary_number">
             {nutrientsData.keyData.proteinCount}g
@@ -43,7 +43,7 @@ const Summary = () => {
         </div>
       </div>
       <div className="summary_bloc glucides">
-        <img src="/src/assets/svg/apple.svg"></img>
+        <img src="/assets/svg/apple.svg"></img>
         <div className="summary_bloc_details">
           <p className="summary_number">
             {nutrientsData.keyData.carbohydrateCount}g
@@ -52,7 +52,7 @@ const Summary = () => {
         </div>
       </div>
       <div className="summary_bloc lipides">
-        <img src="/src/assets/svg/cheese_burger.svg"></img>
+        <img src="/assets/svg/cheese_burger.svg"></img>
         <div className="summary_bloc_details">
           <p className="summary_number">{nutrientsData.keyData.lipidCount}g</p>
           <p className="summary_title">Lipides</p>
