@@ -5,19 +5,19 @@ const NavBar = () => {
         <div className="container_column">
           <img
             className="logo_nav_vertical"
-            src="/assets/svg/logo_nav_zen.svg"
+            src="./assets/svg/logo_nav_zen.svg"
           />
           <img
             className="logo_nav_vertical"
-            src="/assets/svg/logo_nav_swim.svg"
+            src="./assets/svg/logo_nav_swim.svg"
           />
           <img
             className="logo_nav_vertical"
-            src="/assets/svg/logo_nav_bike.svg"
+            src="./assets/svg/logo_nav_bike.svg"
           />
           <img
             className="logo_nav_vertical"
-            src="/assets/svg/logo_nav_pull_up.svg"
+            src="./assets/svg/logo_nav_pull_up.svg"
           />
         </div>
         <p className="cp">Copiryght, SportSee 2020</p>
@@ -26,14 +26,14 @@ const NavBar = () => {
         <div className="container_row">
           <img
             className="logo_sport_see"
-            src="/assets/svg/logo_nav_sport_see.svg"
+            src="./assets/svg/logo_nav_sport_see.svg"
             alt="SportSee"
           />
 
           {/* Icône du menu burger */}
           <div className="burger_menu">
             <img
-              src="/assets/svg/menu.svg"
+              src="./assets/svg/menu.svg"
               alt="Menu"
               className="burger_icon"
             />
