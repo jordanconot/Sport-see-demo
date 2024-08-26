@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import IconApple from '../assets/svg/apple.svg';
+import IconCalorie from '../assets/svg/calories.svg';
+import IconCheese from '../assets/svg/cheese_burger.svg';
+import IconProtein from '../assets/svg/protein.svg';
 import ApiServices from '../services/ApiService';
 
 const Summary = () => {
@@ -25,7 +29,7 @@ const Summary = () => {
   return (
     <aside className="container_summary">
       <div className="summary_bloc calories">
-        <img src="./assets/svg/calories.svg" />
+        <img src={IconCalorie} alt="Calories" />
         <div className="summary_bloc_details">
           <p className="summary_number">
             {nutrientsData.keyData.calorieCount}kCal
@@ -34,7 +38,7 @@ const Summary = () => {
         </div>
       </div>
       <div className="summary_bloc protein">
-        <img src="./assets/svg/protein.svg" />
+        <img src={IconProtein} alt="Protéine" />
         <div className="summary_bloc_details">
           <p className="summary_number">
             {nutrientsData.keyData.proteinCount}g
@@ -43,7 +47,7 @@ const Summary = () => {
         </div>
       </div>
       <div className="summary_bloc glucides">
-        <img src="./assets/svg/apple.svg" />
+        <img src={IconApple} alt="Pomme" />
         <div className="summary_bloc_details">
           <p className="summary_number">
             {nutrientsData.keyData.carbohydrateCount}g
@@ -52,7 +56,7 @@ const Summary = () => {
         </div>
       </div>
       <div className="summary_bloc lipides">
-        <img src="./assets/svg/cheese_burger.svg" />
+        <img src={IconCheese} alt="Cheese burger" />
         <div className="summary_bloc_details">
           <p className="summary_number">{nutrientsData.keyData.lipidCount}g</p>
           <p className="summary_title">Lipides</p>
