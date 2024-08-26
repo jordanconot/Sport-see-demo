@@ -1,12 +1,11 @@
+import logoZen from '../assets/svg/logo_nav_zen.svg';
+
 const NavBar = () => {
   return (
     <>
       <nav className="container_nav_vertical">
         <div className="container_column">
-          <img
-            className="logo_nav_vertical"
-            src="./assets/svg/logo_nav_zen.svg"
-          />
+          <img className="logo_nav_vertical" src={logoZen} alt="Zen" />
           <img
             className="logo_nav_vertical"
             src="./assets/svg/logo_nav_swim.svg"
